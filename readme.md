@@ -1,15 +1,13 @@
-1. How many users are there?
+How many users are there?
+- 50
+- `SELECT COUNT(*) FROM users;`
 
-50
+---
 
-SELECT count(*) FROM users;
-
-2. What are the 5 most expensive items?
-
-    1.Small Cotton Gloves
-    2. Small Wooden Computer
-    3. Awesome Granite Pants
-    4. Sleek Wooden Hat
-    5. Ergonomic Steel Car
-
-SELECT title FROM items ORDER BY price DESC LIMIT 5;
+What are the 5 most expensive items?
+- Small Cotton Gloves
+- Small Wooden Computer
+- Awesome Granite Pants
+- Sleek Wooden Hat
+- Ergonomic Steel Car
+- `SELECT title FROM items ORDER BY price DESC LIMIT 5;``
