@@ -1,4 +1,5 @@
 How many users are there? 50
+
 `SELECT COUNT(*) FROM users;`
 
 ---
