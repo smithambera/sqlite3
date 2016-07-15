@@ -60,14 +60,14 @@
 
 ---
 
-How much was spent on books?
+**How much was spent on books?**
 <br>$1,081,352
 
 `SELECT SUM(items.price * orders.quantity) FROM items INNER JOIN orders WHERE orders.item_id = items.id AND items.category LIKE '%Book%';`
 
 ---
 
-Simulate buying an item by inserting a User for yourself and an Order for that User.
+**Simulate buying an item by inserting a User for yourself and an Order for that User.**
 
 `INSERT INTO users (first_name, last_name, email) VALUES ('Amber', 'Smith', 'smithambera@gmail.com');`
 
